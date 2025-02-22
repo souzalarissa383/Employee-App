@@ -54,7 +54,7 @@ O JSON Server simula uma API RESTful. Para iniciá-lo, execute:
 npx json-server --watch database.json --port 3000
 ```
 
-Certifique-se de que o arquivo `db.json` está na raiz do projeto com os dados dos funcionários.
+Certifique-se de que o arquivo `database.json` está na raiz do projeto com os dados dos funcionários.
 
 4. **Execute o aplicativo**:
 
@@ -130,7 +130,3 @@ yarn test
 - **Testes de Navegação**: Verifica se a navegação entre telas está funcionando corretamente.
 - **Testes de Tela**: Verifica se a `EmployeeListScreen` renderiza corretamente e se as funcionalidades de pesquisa e expansão funcionam.
 - **Testes de Repositório**: Verifica se o repositório de funcionários está funcionando corretamente.
-
----
-
-Agora seu projeto `EmployeeApp` possui um README bem estruturado e detalhado. Se precisar de mais alguma alteração ou melhoria, é só avisar! 🚀

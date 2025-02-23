@@ -41,7 +41,7 @@ const EmployeeListScreen = () => {
     return (
       employee.name.toLowerCase().includes(searchLower) ||
       employee.job.toLowerCase().includes(searchLower) ||
-      employee.phone.toLowerCase().includes(searchLower)
+      employee.phone.toLowerCase().includes(searchLower) 
       
     );
   });
